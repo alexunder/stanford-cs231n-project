@@ -32,7 +32,7 @@ def relu(Z):
     A = np.maximum(0,Z)
     
     assert(A.shape == Z.shape)
-    
+
     cache = Z 
     return A, cache
 
